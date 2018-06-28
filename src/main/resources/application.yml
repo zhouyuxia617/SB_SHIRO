@@ -1,0 +1,9 @@
+#对外提供接口调用的端口
+server:
+    port: 8080
+spring:
+    datasource:
+        url: jdbc:mysql://localhost/my
+        username: root
+        password: zyx
+        driver-class-name: com.mysql.jdbc.Driver
